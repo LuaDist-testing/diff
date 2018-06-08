@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "diff"
-version = "8.06.15-1"
+version = "8.06.15-2"
 -- LuaDist source
 source = {
-  tag = "8.06.15-1",
+  tag = "8.06.15-2",
   url = "git://github.com/LuaDist-testing/diff.git"
 }
 -- Original source
@@ -28,5 +28,6 @@ build = {
      lua = {
         diff = "lua/diff.lua",
      }
-  }
+  },
+  copy_directories = { "doc", "tests" }
 }
